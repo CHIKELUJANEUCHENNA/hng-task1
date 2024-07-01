@@ -1,0 +1,56 @@
+body {
+    font-family: Serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .base {
+    margin: auto;
+    padding: 20px;
+    background-color: bisque;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .info, .links, .goals {
+    margin-bottom: 20px;
+  }
+
+  h1, h2 {
+    color: #000040;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #088af4;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .base {
+      padding: 10px;
+    }
+  }
+  
